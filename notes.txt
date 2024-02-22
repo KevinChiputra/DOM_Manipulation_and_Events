@@ -1,0 +1,25 @@
+Part 1
+1. DOM (Document Object Model) -> Document: isi browser, Object: nilai tipe data pada JS, Model: representasi dari sesuatu. Sehingga secar sederhanan DOM merupakan representasi element HTML pada dokumen menjadi sebuah objek. Antarmuka pemrogram berbasis objek yang merepresentasikan dokumen web
+2. DOM Tree -> element HTML di simpan sebagai document. Simplenya merepresentasikan tag-tag HTML dalam sebuah tree. Contohnya ya seperti sebelumnya sebuah element HTML berada dalam document, sehingga kita dapat menyimpulkan document ada root dari DOM tree.
+
+Part 2
+1. NodeList vs HTMLCollection. Nodelist adalah ketika kita memilih lebih dari satu node tanpa memperdulikan tipenya, sedangkan HTMLCollection kumpulan node dengan tipe yang sama.
+    1.1 Strukturnya mirip array
+    1.2 HTMLCollection bersifat live sedangkan nodelist tidak
+    1.3 tipe itu element, text, document, entitiy, comment
+2. Sturktur hierarki DOM Tree.
+    2.1 Root (default Document)
+    2.2 Parent Node
+    2.3  Child node
+
+Part 3
+1. DOM Selection method:
+    1.1. getElementById() -> memilih element by id -> Hasil element
+    1.2. getElementsByTagName() -> memilih element by tag name -> HTMLCollection
+    1.3. getElementByClassName() -> memilih element by class -> HTMLCollection
+    1.4. querySelector() -> element
+    1.4. querySelectorAll() -> NodeList
+2. cara penulisan {node root}.{selectornya}, node root: document (default)
+
+Part 4 selection dom part 2
+1. 
