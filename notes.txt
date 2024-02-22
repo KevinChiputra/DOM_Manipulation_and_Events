@@ -22,4 +22,7 @@ Part 3
 2. cara penulisan {node root}.{selectornya}, node root: document (default)
 
 Part 4 selection dom part 2
-1. 
+1. querySelector bisa dibilang menargetkannya seperti CSS, sehingga harus familiar sm CSS dulu.
+    1.1 Karena querySelector returnnya element, maka jika terdapat target yang banyak maka element pertama yang ditemukan akan direturn.
+2. paling cepat adalah getElementById dan getElementsByTagName. cuman jika tidak bisa dan tidak diperbolehkan mengedit file HTML dan CSS, maka gunakan querySelector dan querySelectorAll. Tapi semua kembali ke kasus yang dihadapi.
+3. Mengubah node root.
