@@ -26,3 +26,15 @@ Part 4 selection dom part 2
     1.1 Karena querySelector returnnya element, maka jika terdapat target yang banyak maka element pertama yang ditemukan akan direturn.
 2. paling cepat adalah getElementById dan getElementsByTagName. cuman jika tidak bisa dan tidak diperbolehkan mengedit file HTML dan CSS, maka gunakan querySelector dan querySelectorAll. Tapi semua kembali ke kasus yang dihadapi.
 3. Mengubah node root.
+
+Part 5 DOM Manipulation part 1: Manipulasi Element
+1. element.innerHTML, element.style.<property>, element.setAtribute(), element.classList
+    1.1 h1.innerHTML = 'Kevin Chiputra'
+    1.2 judul.style.color = 'lightblue'
+    1.3 judul.setAttribute('name', 'kevin')
+    1.4 getAttribute return isi attribute tsb
+    1.5 removeAttribute menghapus attribute
+    1.6 mengelolah class menggunakan classList ada .add(), .remove(), .togle(), .item(), .contains(), .replace()
+        1.6.1 .classList.item() -> berfungsi untuk mengecek index class pada element
+    1.7 .classList.contains() -> cek class jika ada return true dan salah false
+    1.8 classList.replace() -> ganti class, cara pakai element.classList.replace('tiga', 'empat')
