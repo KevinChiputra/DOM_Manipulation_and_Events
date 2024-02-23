@@ -34,7 +34,7 @@ Part 5 DOM Manipulation part 1: Manipulasi Element
     1.3 judul.setAttribute('name', 'kevin')
     1.4 getAttribute return isi attribute tsb
     1.5 removeAttribute menghapus attribute
-    1.6 mengelolah class menggunakan classList ada .add(), .remove(), .togle(), .item(), .contains(), .replace()
+    1.6 mengelolah class menggunakan classList ada classList.add(), classList.remove(), classList.togle(), classList.item(), classList.contains(), classList.replace()
         1.6.1 .classList.item() -> berfungsi untuk mengecek index class pada element
     1.7 .classList.contains() -> cek class jika ada return true dan salah false
     1.8 classList.replace() -> ganti class, cara pakai element.classList.replace('tiga', 'empat')
