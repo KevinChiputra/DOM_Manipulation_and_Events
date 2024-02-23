@@ -38,3 +38,10 @@ Part 5 DOM Manipulation part 1: Manipulasi Element
         1.6.1 .classList.item() -> berfungsi untuk mengecek index class pada element
     1.7 .classList.contains() -> cek class jika ada return true dan salah false
     1.8 classList.replace() -> ganti class, cara pakai element.classList.replace('tiga', 'empat')
+
+part 6 DOM Manipulation part 2: Manipulasi Node
+1. Beberapa method document.createElement(), document.createTextNode(), node.appndChild(), node.insertBefore, parentNode.removeChild(), parentNode.replaceChild(), dll
+    1.1 untuk membuat element baru -> .createElement = membuat element dan createTextNode = membuat text. Kemudian masukan text ke element dengan .appendChild. Jika sudah selesai tinggal masukin ke dalam section yg di mau. Misal di section a, maka select DOM section a dan masukan element baru menggunakan .appendChild(), sectionA.appendChild({pBaru}).
+    1.2 appendChild itu memasukan ke bagian akhir, jika mau spesifik pakai insertBefore. unutk insertBefore memerlukan 2 hal penting, pertama parent dan kedua element didepannya, sehingga contohnya ul.insertBefore(liBaru {sebagai yg ingin dimasukan}, li2 {sebelum li2})
+    1.3 removeChild -> menghapus child. Dimana diperlukan parentNode({yang ingin dihapus}). Contoh sectionA.removeChild(linkA)
+    1.4 replace child pertama-> pertama buat element baru dan textNode dan masukin. Kemudian dapatkan parentNode dan element yang ingin diganti. Contohnya: sectiobB.replaceChild(h2baru, p4)
