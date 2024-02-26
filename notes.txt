@@ -57,3 +57,15 @@ Part 7 DOM Events
 4. perbedaan event handler dan addEventListener(), jika event handler menimpa perintah kalau addEventListener menambahkan. Contohnya di script part 7
 5. Daftar event: http://developer.mozilla.org/en-US/docs/Web/Events
 
+Part 10 DOM Traversal
+1. DOM traversal adalah sebuah cara bergerak melalui DOM tree untuk mengedit element tertentu. Memungkinkan menelusuri element lain melalui suatu element
+2. DOM Treaversal method   
+    2.1 parentNode, parentElement, nextSibling, nextElementSibling, previousSibling, previousElementSibling
+    2.2 beda Node dan element, jika element pasti akan mengembalikan element, jika node bisa tidak pasti mengembalikan element. Misalnya .nextSibling (mengembalikan node) yang akan dikembalikan adalah "enter" jika ditulis dengan enter, sehingga jika ingin pasti mendapatkan sibling selanjutnya secara pasti lebih baik ditulis menggunakan .nextElementSibling 
+
+Part 11 Prevent Default 
+1. mencegah aksi default
+
+Part 12 Event bubbling
+1. jadi jika suatu event terjadi di element, maka berlaku ke atas"nya (pembungkus). Konsepnya seperti gelembung yang satu pecah dan pecah terus menerus.
+2. masalahnya misal pada kasus part 11, kita menekan tombol x maka function dari card akan kepanggil baru melakukan function menghapus card. Kita harus menghentikan hal tersebut dengan e.stopPropagation. Dengan begitu jika menekan tombol x maka hanya fungtion hapus yang jalan
